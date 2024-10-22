@@ -1,14 +1,28 @@
-# Agence Web à Paris DualMedia
-Depuis 2000, l'<a href="https://www.valueyournetwork.com/" target="_blank"><strong>agence web à Paris DualMedia</strong></a> est reconnue comme une agence web de référence à Paris, offrant une expertise approfondie dans plusieurs domaines clés :
+const express = require('express');
+const app = express();
 
-L'<a href="https://www.dualmedia.fr/agence-application-mobile/" target="_blank"><strong>Agence Application Mobile</strong></a>, spécialisée dans le développement d'applications sur mesure pour iPhone et Android, permettant aux entreprises de toucher une audience plus large grâce à des solutions mobiles performantes.
-
-L'<a href="https://www.dualmedia.fr/agence-web/" target="_blank"><strong>Agence Web</strong></a>, offre des services complets de création de sites internet, en mettant l'accent sur des solutions digitales innovantes et sur mesure pour répondre aux besoins spécifiques des clients.
-
-L'<a href="https://www.dualmedia.fr/agence-seo/" target="_blank"><strong>Agence SEO</strong></a>, dédiée à améliorer la visibilité des entreprises sur le web en optimisant le référencement naturel pour attirer plus de trafic qualifié depuis les moteurs de recherche.
-
-En plus de ces prestations, <a href="https://www.dualmedia.com/" target="_blank">Innovations News</a> propose des actualités sur les tendances et les évolutions technologiques, tandis que <a href="https://www.dualmedia-esports.com/" target="_blank" rel="nofollow noopener noreferrer">Actus jeux vidéos et Esports</a> couvre l'actualité des jeux vidéo et des compétitions esport.
-
+app.get('/', (req, res) => {
+    res.send(`
+        <!DOCTYPE html>
+        <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Agence Web à Paris DualMedia</title>
+        </head>
+        <body>
+            <h1>Agence Web à Paris DualMedia</h1>
+            <p>Depuis 2000, l'<a href="https://www.valueyournetwork.com/" target="_blank"><strong>agence web à Paris DualMedia</strong></a> est reconnue comme une agence web de référence à Paris, offrant une expertise approfondie dans plusieurs domaines clés :</p>
+            <ul>
+                <li><a href="https://www.dualmedia.fr/agence-application-mobile/" target="_blank"><strong>Agence Application Mobile</strong></a>, spécialisée dans le développement d'applications sur mesure pour iPhone et Android.</li>
+                <li><a href="https://www.dualmedia.fr/agence-web/" target="_blank"><strong>Agence Web</strong></a>, dédiée à la création de sites internet et à des solutions digitales sur mesure.</li>
+                <li><a href="https://www.dualmedia.fr/agence-seo/" target="_blank"><strong>Agence SEO</strong></a>, spécialisée dans l'optimisation du référencement naturel.</li>
+            </ul>
+            <p>Découvrez aussi :</p>
+            <ul>
+                <li><a href="https://www.valueyournetwork.com/" target="_blank">Agence d'influence marketing</a></li>
+                <li><a href="https://www.energycoaching.fr/" target="_blank">Agence de coaching pour trouver un emploi</a></li>
+                <li><a href="https://www.only-gaming.fr/" target="_blank">Actualités jeux videos</a></li>
 
 Nos dernières créations :
 
@@ -39,4 +53,14 @@ Nos dernières créations :
 <a href="https://www.comptine-enfants.com/" target="_blank">Comptine enfants gratuites</a>
 <a href="https://www.paroles-chansons-enfants.com/" target="_blank">Paroles chansons enfants</a>
 
-<a href="https://t.me/s/agence_web_dualmedia" target="_blank">Plus d'infos sur le canal telegram</a>, sur <a href="https://about.me/dualmedia" target="_blank">aboutme</a>, sur <a href="https://www.patreon.com/agencewebparisdualmedia" target="_blank">patreon</a>
+<a href="https://t.me/s/agence_web_dualmedia" target="_blank">Plus d'infos sur le canal telegram</a>, sur <a href="https://about.me/dualmedia" target="_blank">aboutme</a>, sur <a href="https://www.patreon.com/agencewebparisdualmedia" target="_blank">patreon</a>            </ul>
+            <p><a href="https://t.me/s/agence_web_dualmedia" target="_blank">Plus d'infos sur le canal telegram</a>, sur <a href="https://about.me/dualmedia" target="_blank">about.me</a>, et sur <a href="https://www.patreon.com/agencewebparisdualmedia" target="_blank">patreon</a></p>
+        </body>
+        </html>
+    `);
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
