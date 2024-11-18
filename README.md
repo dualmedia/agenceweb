@@ -41,3 +41,10 @@ Nos dernières créations :
 
 <a href="https://t.me/s/agence_web_dualmedia" target="_blank">Plus d'infos sur le canal telegram</a>, sur <a href="https://about.me/dualmedia" target="_blank">aboutme</a>, sur <a href="https://www.patreon.com/agencewebparisdualmedia" target="_blank">patreon</a>
 
+Découvrez comment <a href="https://www.valueyournetwork.com/telechargez-vos-videos-tiktok-avant-quil-ne-soit-trop-tard/">télécharger vos vidéos Tiktok</a> en toute simplicité avant qu’il ne soit trop tard.
+
+Discover the cultural customs that surprise travelers with <a href="https://www.traveltoadventures.com/10-cultural-habits-that-will-shock-you-why-do-they-seem-so-normal-abroad/">10 Cultural Habits That Will Shock You</a>, an article that explores surprising and fascinating habits that seem perfectly normal in some countries.
+
+Apprenez à <a href="https://www.dualmedia-esports.com/comment-toujours-gagner-avec-le-canon-evolutif-sur-clash-royale/">gagner avec le Canon Évolutif</a> grâce à des stratégies détaillées dans cet article.
+
+
